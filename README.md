@@ -1,7 +1,7 @@
 # Tim's portfolio sample version
 
 ## Demo
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+[demo video](https://1drv.ms/v/s!AmhhVpF17_Frh8xt66Z9ekfDMk6M9w?e=pl4LaG).
 
 ## Project Setup
 
