@@ -1,0 +1,109 @@
+// font size
+$fontsize-title: 16px;
+$fontsize-subtitle: 16px;
+$fontsize-text: 14px;
+
+// Breakpoint 可新增，新增後到 mixins 資料夾設定
+$breakpoint-xs: 375px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+$breakpoint-xxxl: 1600px;
+$breakpoint-xxxxl: 1800px;
+$backgroundColor: linear-gradient(90deg, #161e37, #1b2c47, #1b2c47, #161e37); //背景色
+// $backgroundGradient: linear-gradient(90deg, #161e37, #1b2c47, #1f3957); //小框背景色
+$backgroundGradient: linear-gradient(90deg, #161e37 60%, #1b2c47 100%); //小框背景色
+$headerMenu: #efefef; //上排選單主色
+$headerIconColor: #515054; //上排icon主色
+$headerIconDisableColor: rgb($headerIconColor, 0.2); //上排icon disable 主色
+$headerIconActiveColor: #1362ad; //上排icon active 主色
+$borderColor: #3c4150; //小框 框線色
+$homeFontColor: #fffafb; //home 字體色
+$cctvFontColor: #a1a5af; //cctv 字體色
+$companyMainClor: #1362ad; //公司主色 背景色
+$iconBackground: #30415b; //三角形icon 背景色
+$iconBorderColor: rgba(255, 250, 251, 0.2); //三角形icon border
+$borderColorBottom: rgb(255, 250, 251, 0.5); //header下方線color
+$dataBackground: #242937; //data color
+
+//顏色變數 不可以改喔~直接新增新的顏色變數就好
+
+//綠色
+$color0c6156: #0c6156;
+$color417b5a: #417b5a;
+$color7ae582: #7ae582;
+$color2ed339: #2ed339;
+$colorbde0cd: #bde0cd;
+$color77DF98: #77df98;
+
+//黃色
+$colorF6F930: #f6f930;
+$colorf6ae2d: #f6ae2d;
+$colorefa00b: #efa00b;
+//紅色
+$colorFE6D73: #fe6d73;
+$colorf24236: #f24236;
+
+//咖啡色
+$colorFE6D7326: #fe6d7326;
+
+//藍色
+$color31C3CB: #31c3cb;
+$color214D6D: #214d6d;
+$color2C9CAC: #2c9cac;
+$color27758D: #27758d;
+$color5288AE: #5288ae;
+$color2e6083: #2e6083;
+$color161E37: #161e37;
+$color254E9A: #254e9a;
+$color1F3957: #1f3957;
+$color3F6897: #3f6897;
+$color3F88C5: #3f88c5;
+$color1A324B62: #1a324b62;
+$color191D30: #191d30;
+$color1F395726: #1f395726;
+$color132038: #132038;
+$color0292da: #0292da;
+$color0075c4: #0075c4;
+//灰色
+$color555C70: #555c70;
+$color515054: #515054;
+$color757886: #757886;
+$color757885: #757885;
+$color7578854d: #7578854d;
+$color474F5F: #474f5f;
+$colorFFFFFF33: #ffffff33;
+$colorFFFFFF1a: #ffffff1a;
+$color3C4150: #3c4150;
+$color979797: #979797;
+$color3e4250: #3e4250;
+$colorC1C1C1: #c1c1c1;
+$colorF2F2F299: #f2f2f299;
+$colorB8B8B8: #b8b8b8;
+$color1F395726: #1f395726;
+$color55595B: #55595b;
+$colorB5B5B5: #b5b5b5;
+$colorB1B1B1: #b1b1b1;
+$colorC0C0C0: #c0c0c0;
+$colorDCDCDC66: #dcdcdc66;
+$color5E616D: #5e616d;
+$color161E3766: #161e3766;
+$color80808033: #80808033;
+$color515054: #515054;
+$colorC9C9C9: #c9c9c9;
+//白色
+$colorEFEFEF: #efefef;
+$colorDCDCDC: #dcdcdc;
+$colorF1F1F1: #f1f1f1;
+$colorF2F2F2: #f2f2f2;
+$colorF6F6F6: #f6f6f6;
+$colorFFFFFF: #ffffff;
+$colorDCDDDD: #dcdddd;
+//粉紅色
+$ff4d97: #ff4d97;
+$colorA5529B: #a5529b;
+$colorF5CA24: #f5ca24; //顏色變數
+
+// 這裡設定變數

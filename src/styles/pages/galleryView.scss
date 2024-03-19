@@ -1,0 +1,48 @@
+#universeContainer {
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  position: absolute;
+  z-index: 0;
+  left: 0px;
+  top: 0px;
+}
+.universeContainerContent {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 10;
+  // border: 0.1px wheat solid;
+  background-image: linear-gradient(-45deg, rgb(222, 213, 223), rgb(3, 30, 49));
+  top: 30%;
+  left: 3%;
+  opacity: 80%;
+
+  .universeContainerContent_body {
+    width: 100%;
+    height: 60%;
+  }
+  .universeContainerContent_header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+
+    justify-content: start;
+    align-items: center;
+  }
+
+  .universeContainerContent_footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .nextBtn {
+    margin: 5px 5px;
+  }
+}

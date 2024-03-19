@@ -1,0 +1,526 @@
+.main-contentLine {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .main-firstColumn {
+    width: 40%;
+    height: 35px;
+    font-size: 16px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+  }
+  .main-secondColumn {
+    width: 60%;
+    height: 100%;
+    min-height: 35px;
+    line-height: 30px;
+    max-height: 105px;
+    overflow-y: auto;
+    font-size: 16px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+
+    > select {
+      width: 100%;
+      height: 30px;
+      border-radius: 5px;
+      border: 2px solid rgba(255, 250, 251, 0.2);
+      background: transparent;
+      font-size: 1rem;
+      color: #000000;
+      cursor: pointer;
+    }
+  }
+  .main-crossSetion {
+    width: 100%;
+    height: 35px;
+    font-size: 22px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .main-crossSetionBTN {
+      width: 100% !important;
+      height: 30px !important;
+      color: #000000;
+
+      > span {
+        font-size: 16px;
+      }
+    }
+    .main-crossSetionBTN:hover {
+      color: #36ad6a;
+    }
+  }
+}
+
+.n-collapse-item-arrow {
+  color: #000000 !important;
+}
+
+.modelTranformInfoBlock {
+  margin-top: 12px;
+
+  .n-collapse-item {
+    width: 100%;
+    background: #939ca51f;
+    color: #000000;
+    border-radius: 10px;
+    color: #020202;
+
+    .n-collapse-item__header--active {
+      border-radius: 10px 10px 0 0 !important;
+      border-bottom: 1px solid rgba(147, 156, 165, 0.8) !important;
+    }
+
+    .n-collapse-item--left-arrow-placement {
+      border-radius: 10px !important;
+    }
+  }
+
+  .n-collapse-item-arrow {
+    color: #000000;
+  }
+
+  .n-collapse-item__content-wrapper {
+    padding: 8px 16px 16px 16px;
+    border-radius: 0 0 10px 10px;
+    .n-collapse-item__content-inner {
+      color: #000000 !important;
+      font-size: 16px;
+      padding-top: 0 !important;
+    }
+  }
+
+  .n-collapse-item__header-main {
+    font-size: 16px !important;
+    font-weight: bold !important;
+    color: #000000 !important;
+    display: flex;
+    height: 36px;
+    border-radius: 10px;
+  }
+
+  .n-collapse-item__header {
+    padding: 0 !important;
+    padding-left: 14px !important;
+    height: 35px !important ;
+    background-color: rgba(147, 156, 165, 0.3) !important;
+    border-radius: 10px;
+
+    .n-collapse-item-arrow {
+      color: #000000;
+    }
+  }
+
+  .n-collapse-item__content-inner {
+    padding-top: 0px !important;
+
+    .buttonModeInfo {
+      font-size: 16px !important;
+      color: #000000;
+      display: flex;
+    }
+
+    .buttonModeInfo:hover {
+      text-decoration: underline;
+      text-underline-offset: 6px;
+      transform: translateY(-2px);
+    }
+  }
+
+  .buttonsRowOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+
+    .n-collapse-item__header-main {
+      font-size: 16px;
+      font-weight: bold !important;
+      color: #f6f6f6 !important;
+    }
+
+    .downIconButton {
+      transform: rotate(180deg);
+    }
+  }
+
+  .buttonsRowTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+
+    .leftIconButton {
+      transform: rotate(-90deg);
+    }
+
+    .backIconButton {
+      transform: rotate(180deg);
+    }
+
+    .rightIconButton {
+      transform: rotate(90deg);
+    }
+  }
+
+  .twoLayersTr {
+    height: 70px;
+  }
+}
+
+.n-collapse-item__header.n-collapse-item__header--active .n-collapse-item-arrow {
+  transform: rotate(0deg) !important;
+}
+
+//! move 面板專用
+.modelTranformInfoBlock_move {
+  margin-top: 12px;
+  color: #000000;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .n-collapse-item {
+    border-top: none !important;
+    background: #939ca51f;
+    border-radius: 10px !important;
+    margin-top: 0;
+
+    .n-collapse-item__header {
+      padding: 0 !important;
+      border-radius: 10px;
+    }
+
+    .n-collapse-item__header--active {
+      border-radius: 10px 10px 0 0 !important;
+      border-bottom: 1px solid rgba(147, 156, 165, 0.8) !important;
+    }
+
+    .n-collapse-item--left-arrow-placement {
+      border-radius: 10px !important;
+    }
+  }
+
+  .n-collapse-item-arrow {
+    color: #000000 !important;
+  }
+
+  .n-collapse-item__content-wrapper {
+    padding: 8px 16px 16px 16px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .n-collapse-item__header-main {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000 !important;
+    display: flex;
+    height: 36px;
+    border-radius: 10px;
+    padding-left: 14px !important;
+  }
+
+  .n-collapse-item__header {
+    padding: 0px !important;
+    height: 35px !important ;
+    background-color: rgba(147, 156, 165, 0.3) !important;
+  }
+
+  .n-collapse-item__content-inner {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px !important;
+
+    .collapse-contentLine {
+      width: 100%;
+      //padding-bottom: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .firstColumn {
+        width: 100%;
+        height: 100%;
+
+        font-size: 16px;
+        color: #000000;
+      }
+      .secondColumn {
+        width: 100%;
+        height: 100%;
+        font-size: 16px;
+        color: #000000;
+        overflow: auto;
+      }
+    }
+  }
+
+  .buttonsRowOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    // padding: 0 30px;
+    // padding-right: 62px;
+
+    .downIconButton {
+      transform: rotate(180deg);
+    }
+  }
+
+  .buttonsRowTwo {
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items: center;
+    height: 50%;
+    // padding: 0 30px;
+    // padding-right: 62px;
+    .leftIconButton {
+      transform: rotate(-90deg);
+    }
+
+    .backIconButton {
+      transform: rotate(180deg);
+    }
+
+    .rightIconButton {
+      transform: rotate(90deg);
+    }
+  }
+}
+
+.twoLayersTr {
+  height: 70px;
+}
+
+.secondColumn {
+  color: #ccc;
+}
+
+// 部分地方是使用到的contentInnerRow作為collapse的資料列class
+// 但是是寫在各自的scss檔案中的dialog裡面
+.contentInnerRow {
+  display: flex;
+  flex-wrap: wrap;
+
+  .rackFirstColumn,
+  .rackSecondColumn {
+    height: 35px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.contentInnerRow:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  transform: translateY(-2px);
+}
+
+// .n-ellipsis:hover {
+//   text-decoration: underline;
+//   text-underline-offset: 6px;
+//   transform: translateY(-2px);
+// }
+
+// 目前是用在addmodel.vue的server介面中的ULevel的select
+.floorSelect {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 250, 251, 0.2);
+  background: transparent;
+  font-size: 1rem;
+  color: #882d3f;
+  cursor: pointer;
+  option {
+    background-color: #c0c0c0; /* 设置<option>元素的背景色 */
+  }
+}
+
+//! 機櫃層 面板專用
+.modelTranformInfoBlock_showRack {
+  margin-top: 12px;
+  color: #f6f6f6;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .n-collapse-item {
+    border-top: none !important;
+    background: #939ca51f;
+    border-radius: 10px !important;
+    margin-top: 0;
+
+    .n-collapse-item__header {
+      padding: 0 !important;
+      height: 35px;
+      border-radius: 10px;
+      padding: 0px !important;
+      height: 35px !important ;
+      background-color: rgba(147, 156, 165, 0.3) !important;
+    }
+
+    .n-collapse-item__header-main {
+      width: 100%;
+      font-size: 16px;
+      font-weight: bold;
+      color: #000000 !important;
+      display: flex;
+      height: 36px;
+      border-radius: 10px;
+      padding-left: 14px !important;
+
+      .n-collapse-item-arrow {
+        color: #000000 !important;
+      }
+    }
+
+    .n-collapse-item__header--active {
+      border-radius: 10px 10px 0 0 !important;
+      border-bottom: 1px solid rgba(147, 156, 165, 0.8) !important;
+    }
+
+    .n-collapse-item--left-arrow-placement {
+      border-radius: 10px !important;
+    }
+
+    .n-collapse-item__content-wrapper {
+      padding: 8px 16px 16px 16px;
+      border-radius: 0 0 10px 10px;
+    }
+
+    .n-collapse-item__content-inner {
+      display: flex;
+      flex-direction: column;
+      padding-top: 0px !important;
+      font-size: 16px;
+      color: #000000 !important;
+
+      .rackToggleButton {
+        margin-top: 10px;
+        height: 32px;
+        border-radius: 3px 3px 0 0;
+        border: none;
+        font-size: 16px;
+      }
+
+      .allRackAmount {
+        display: flex;
+
+        .rackColOne {
+          width: 30px;
+          .rackNumCol {
+            height: 26px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: rgba(84, 84, 84, 0.65);
+          }
+        }
+
+        .rackColTwo {
+          width: calc(100% - 60px);
+
+          .rackNameCol {
+            min-height: 52px;
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 0.5px dashed #f6f6f6;
+          }
+
+          .fourLayersRsck {
+            height: 104px;
+          }
+        }
+
+        .rackColThree {
+          width: 30px;
+          .rackNumCol {
+            height: 26px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: rgba(84, 84, 84, 0.65);
+          }
+        }
+        // .rackNumCol {
+        //   width: 30px;
+        //   height: 26px;
+        //   display: flex;
+        //   flex-direction: column;
+        //   align-items: center;
+        //   justify-content: flex-start;
+        //   background-color: rgba(84, 84, 84, 0.65);
+        // }
+
+        // .rackNameCol {
+        //   width: calc(100% - 60px);
+        //   background-color: #000;
+        //   display: flex;
+        //   flex-direction: column;
+        //   align-items: center;
+        //   justify-content: flex-start;
+        //   border-bottom: 0.5px dashed #f6f6f6;
+
+        // }
+      }
+
+      .eachRackRow {
+        display: flex;
+        min-height: 30px;
+        flex-wrap: wrap;
+        padding: 0 5px;
+
+        > div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 30px;
+        }
+
+        .rackTitleName {
+          width: 100%;
+          justify-content: flex-start;
+          height: 35px;
+        }
+
+        .rackRangeBeginCol {
+          width: 25px;
+          justify-content: flex-start;
+        }
+
+        .rackRangeEndCol {
+          width: 65px;
+          justify-content: flex-end;
+        }
+
+        .rackAmountCol {
+          width: calc(100% - 90px);
+          .amountBar {
+            width: 100%;
+            height: 10px;
+            background: #3c4150;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+  }
+}
